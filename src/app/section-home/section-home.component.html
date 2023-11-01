@@ -1,0 +1,25 @@
+<section class="home">
+  <div class="area-titulo">
+    <h2>Nossa Equipe</h2>
+    <h5>Conheça quem faz o seu estilo criar vida</h5>
+  </div>
+  <div class="content">
+    <ul class="team" *ngFor="let member of members" >
+      <li class="member">
+        <div class="thumb">
+          <img
+            src={{member.avatar}}
+          />
+        </div>
+        <div class="description">
+          <h3>{{member.first_name}} {{member.last_name}}</h3>
+          <p>
+            {{member.email}}<br /><a
+              >{{member.id}}</a
+            >
+          </p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>

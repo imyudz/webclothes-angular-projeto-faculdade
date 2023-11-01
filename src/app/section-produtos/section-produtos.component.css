@@ -1,0 +1,24 @@
+.produtos-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2%;
+  flex-wrap: wrap;
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif, 'arial';
+  font-weight: 600;
+  font-size: 60px;
+  color: rgb(85, 81, 81);
+  text-align: center;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif, 'arial';
+  font-weight: 400;
+  font-size: 15px;
+  color: #9b9b9b;
+  line-height: 1.5;
+}

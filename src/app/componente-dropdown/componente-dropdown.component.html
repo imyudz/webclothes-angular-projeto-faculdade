@@ -1,0 +1,17 @@
+
+<select [(ngModel)]="select1" (change)="onChange()">
+  <option *ngFor="let p of produtos" [value]="p.id">
+    {{p.nome}}
+  </option>
+</select>
+<select [(ngModel)]="select2" class="rounded-inputs20 select-select col-md-3">
+  <option *ngFor="let t of tamanhos" [value]="t">
+    {{t}}
+  </option>
+</select>
+<button (click)="clickButton()">OK</button>
+<p>Este é o seu produto: {{produto}}</p>
+<p>Tamanho: {{tamanho}}</p>
+<p>Tempo de Entrega: {{entrega}}</p>
+
+
